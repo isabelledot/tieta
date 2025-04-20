@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: [League Spartan];
+ src: local("League Spartan"), url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+ font-family: [Walter Turncoat];
+ src: local("Walter Turncoat"), url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+ font-family: [Beth Ellen];
+ src: local("Beth Ellen"), url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+ font-family: 'starlove';
+ src: url('font/starlove.ttf') format('truetype');
+ }
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+   --cor1: #821413;
+   --cor2: #FDFBEE;
+   --cor3: #bd1313;
+   
+
+   --font1:  "League Spartan", sans-serif;
+   --font2: "Walter Turncoat", cursive;
+   --font3: "Beth Ellen", cursive;
+   --font4: "starlove", cursive;
+}
+
+html, body {
+    margin: auto;
+}
+
+img {
+    width: 160px;
+    padding-left: 30px;
+}
+
+#header {
+    background-color: var(--cor1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-family: var(--font3);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.menu {
+    width: 300px;
+    padding: 10px;
+    margin: 15px;
+    background-color: var(--cor2);
+    border: solid 2px var(--cor3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.169);
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: var(--font3);
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    color: var(--cor3);
+
+}
+
+p {
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+
+.t1{
+    font-family: var(--font1);
+    font-weight: 800;
+    color: var(--cor3);
+}
+
+#titulo {
+    color: rgb(255, 255, 255);
+    background-color: #ba3939;
+    border-radius: 10px;
+}
+
+p > span {
+    font-family: var(--font2);
+    font-weight: 100;
+}
