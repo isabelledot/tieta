@@ -49,7 +49,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 430px;
+    min-width: 430px;
     height: 100px;
 }
 
@@ -94,7 +94,7 @@ h2 {
 
 p {
     padding: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
 
 
@@ -106,7 +106,7 @@ p {
 
 #titulo {
     color: rgb(255, 255, 255);
-    background-color: #ba3939;
+    background-color: var(--cor1);
     border-radius: 10px;
 }
 
